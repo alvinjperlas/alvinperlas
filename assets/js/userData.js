@@ -18,7 +18,7 @@ var projectData = [
 	"targetName":"resm",
 	"imgpath":"assets/img/portfolio/gantt.png",
 	"tagList":["JavaScript", "ExtJS", "Bootstrap", "DHTMLX", "JSP","SQL", "HTML", "CSS", "JSON", "XML", "Netbeans", "SQL Server","Apache Tomcat"],
-	"carousel":["assets/img/portfolio/gantt.png", "assets/img/portfolio/resm1.png"],
+	"carousel":["assets/img/portfolio/gantt.png", "assets/img/portfolio/resm1.jpg"],
 	"description":"Application that tracks an individual’s tasks and progress and presents it in Gantt chart format for Senior Management to monitor and manage resource allocation. Increased efficiency in generating Human Resources work reports."
 },
 {
