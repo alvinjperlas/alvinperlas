@@ -44,7 +44,7 @@
             </div>
          </div>
       </div>
-	  
+
       <!-- ==== HEADERWRAP ==== -->
       <div id="headerwrap" id="home" name="home">
          <header class="clearfix">
@@ -55,38 +55,45 @@
            <h4>Software Engineer - Musician</h4></p>
          </header>
       </div><!-- /headerwrap -->
-	  
-	  
-	  
 
-				
-				
-				
-	  
+
+
+
+
+      <div ng-app = "mainApp" ng-controller = "studentController">
+             Enter first name: <input type = "text" ng-model = "student.firstName"><br><br>
+             Enter last name: <input type = "text" ng-model = "student.lastName"><br>
+             <br>
+
+             You are entering: {{student.fullName()}}
+          </div>
+
+
       <!-- ==== GREYWRAP ==== -->
-      <div id="greywrap">
-         <div class="row">
-            <div class="col-lg-4 callout">
-               <span class="icon icon-stack"></span>
-               <h2>Software Engineer</h2>
-               <p>Reputation for creative approach to software design. Effective approach to development incorporating the use of leading practice development tools and principles. Hands on experience with full development lifecycle. </p>
-            </div><!-- col-lg-4 -->
-			
-            <div class="col-lg-4 callout">
-               <span class="icon icon-eye"></span>
-               <h2>Software Test Engineer</h2>
-               <p>Thorough hands-on experience in all levels of testing, including performance, functional, integration, system, regression and user acceptance testing.. </p>
-            </div><!-- col-lg-4 -->	
-			
-            <div class="col-lg-4 callout">
-               <span class="icon icon-heart"></span>
-               <h2>Team Enthusiast</h2>
-               <p>Believe that teamwork is the basis of every successful project. Respect all input and consider diverse opinions and talents. Adept at bringing together users and technology staff team members to ensure opportunities for open communication and creativity.   </p>
-            </div><!-- col-lg-4 -->	
-         </div> <!-- row -->
-      </div><!-- greywrap -->
-	  
-	  
+      <div ng-app = "intro" ng-controller = "introController">
+        <div id="greywrap">
+           <div class="row">
+              <div class="col-lg-4 callout">
+                 <span class="icon icon-stack"></span>
+                 <h2>Software Engineer</h2>
+                 <p>Reputation for creative approach to software design. Effective approach to development incorporating the use of leading practice development tools and principles. Hands on experience with full development lifecycle. </p>
+              </div><!-- col-lg-4 -->
+
+              <div class="col-lg-4 callout">
+                 <span class="icon icon-eye"></span>
+                 <h2>Software Test Engineer</h2>
+                 <p>Thorough hands-on experience in all levels of testing, including performance, functional, integration, system, regression and user acceptance testing.. </p>
+              </div><!-- col-lg-4 -->
+
+              <div class="col-lg-4 callout">
+                 <span class="icon icon-heart"></span>
+                 <h2>Team Enthusiast</h2>
+                 <p>Believe that teamwork is the basis of every successful project. Respect all input and consider diverse opinions and talents. Adept at bringing together users and technology staff team members to ensure opportunities for open communication and creativity.   </p>
+              </div><!-- col-lg-4 -->
+           </div> <!-- row -->
+        </div><!-- greywrap -->
+      </div
+
       <!-- ==== ABOUT ==== -->
       <div class="container" id="about" name="about">
          <div class="row white">
@@ -94,14 +101,14 @@
             <div class="col-lg-6">
                <p> Alvin is an award winning Software Engineer with a multi-project background in the design and development of hardware and software business and test environment solutions. </p>
             </div><!-- col-lg-6 -->
-			
+
             <div class="col-lg-6">
                <p> Alvin's key strenght is that he is a multi-tasker that is able to transform complex business requirements into effective software solutions. He is also able to effectively communicate with all stakeholders, including management, users, and peers.</p>
             </div><!-- col-lg-6 -->
          </div> <!-- row -->
       </div><!-- container -->
-	  
-	  
+
+
       <!-- ==== Education ==== -->
       <div class="container" id="education" name="education">
          <br><br>
@@ -117,10 +124,10 @@
             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                <img class="img-responsive" src="assets/img/ucilogo.png" alt="">
             </div>
-         </div> <!-- row --> 
+         </div> <!-- row -->
       </div><!-- container -->
-	  
-	  
+
+
       <!-- ==== Skills ==== -->
       <section class="success">
          <div class="container" id="skills" name="skills">
@@ -131,12 +138,12 @@
                   <pre>'languages':[<br>'Java', 'Python', 'C/C++', 'C#', <br>'Objective-C', 'SQL', 'AutoIt','JavasScript', <br>'HTML','CSS', 'VBScript' <br>]
 					</pre>
                </div><!-- col-lg-4 callout-->
-			   
+
                <div class="col-lg-4 callout">
                   <pre>'librariesAndPlugins':[ <br>'PyQT', 'Swing', 'Extjs','Bootstrap',  <br>'JQuery', 'Dhtmlx', 'WHITE', 'JSON', <br>'XML', 'Socket Programming' <br>]
 					</pre>
                </div><!-- col-lg-4 callout-->
-			   
+
                <div class="col-lg-4 callout">
                   <pre>'toolBelt':['Visual Studio', 'eclipse', 'netbeans',<br>'Xcode', 'Instruments', 'github',  <br>'perforce', 'Jira' ,'Apache', 'Tomcat'<br>]
 					</pre>
@@ -144,16 +151,16 @@
             </div> <!-- row -->
          </div><!-- container -->
       </section>
-	  
-	  
-	  
+
+
+
       <!-- ==== experience ==== -->
       <div class="container" id="experience" name="experience">
          <br>
          <div class="row">
             <br><h1 class="centered">Experience</h1><hr><br><br>
          </div><!-- /row -->
-		 
+
          <div class="row">
             <div class="col-lg-6 blog-bg">
                <div class="col-lg-4 centered">
@@ -169,7 +176,7 @@
                   <p>See Projects section for projects built for Extron.</p> <br>
                </div>
             </div><!-- /col -->
-			
+
             <div class="col-lg-6 blog-bg">
                <div class="col-lg-4 centered">
                   <br>
@@ -220,7 +227,7 @@
          <br><br>
       </div>
       <!-- /container -->
-	  
+
       <!-- ==== Projects ==== -->
       <section class="success">
          <div class="container" id="projects" name="projects">
@@ -228,45 +235,45 @@
             <div class="row">
                <br><h1 class="centered">Projects</h1><hr><br><br>
             </div><!-- /row -->
-            
+
             <div class="container">
 				<div id='projectsection'></div><br><br>
             </div><!-- /container -->
          </div><!-- /container -->
       </section>
-	  
-	  
+
+
 	  <!-- ==== Contact ==== -->
       <div class="container" id="contact" name="contact">
-		
+
          <div class="row white">
 		 <br><h1 class="centered">Contact</h1><hr>
-		 
-			
+
+
             <div class="col-lg-6" align="center">
 				<address>
 					<p><span class="icon icon-home"><strong>Alvin Perlas</strong></span>
 					<br>Orange, California, 92866<br>United States<br></p>
 				</address>
             </div><!-- /col -->
-			
-			
-      
+
+
+
 			<div class="col-lg-6" align="center">
 				<h3>Let's Get Connected! </h3>
-                  
+
                   <span class="icon icon-envelop"></span> <a href="#">alvinjericho@gmail.com</a> <br/>
                   <span class="icon icon-github"></span><a href="#">github.com/aperlas</a> <br/>
 				  <span class="icon icon-mobile"></span> +1 (714) 917 9281 <br/>
-				
+
             </div><!-- col -->
          </div>
       </div>
-	  
-	 
-		 
-		 
-		 
+
+
+
+
+
       <!-- container -->
       <div id="footerwrap">
          <div class="container">
@@ -284,6 +291,7 @@
       <!-- <script type="text/javascript" src="assets/js/jquery-func.js"></script> -->
 	  <script type="text/javascript" src="assets/js/userData.js"></script>
 	  <script type="text/javascript" src="assets/js/main.js"></script>
-	  
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+
    </body>
 </html>
